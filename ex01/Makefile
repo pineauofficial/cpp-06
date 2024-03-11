@@ -6,12 +6,12 @@
 #    By: pineau <pineau@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/05 14:17:43 by nasamadi          #+#    #+#              #
-#    Updated: 2024/03/11 14:06:37 by pineau           ###   ########.fr        #
+#    Updated: 2024/03/11 16:19:04 by pineau           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 ### PROGRAM ###
-NAME		= Convert
+NAME		= Serializer
 
 ### SOURCES ###
 SRC_DIR		= sources/
@@ -19,7 +19,7 @@ OBJ_DIR		= .objs/
 INCLUDES	= includes/
 
 SRC		=	main.cpp \
-			ScalarConverter.cpp \
+			Serializer.cpp \
 			
 
 
