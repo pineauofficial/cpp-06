@@ -6,12 +6,12 @@
 #    By: pineau <pineau@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/05 14:17:43 by nasamadi          #+#    #+#              #
-#    Updated: 2024/03/01 17:22:45 by pineau           ###   ########.fr        #
+#    Updated: 2024/03/11 14:06:37 by pineau           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 ### PROGRAM ###
-NAME		= Form
+NAME		= Convert
 
 ### SOURCES ###
 SRC_DIR		= sources/
@@ -19,12 +19,7 @@ OBJ_DIR		= .objs/
 INCLUDES	= includes/
 
 SRC		=	main.cpp \
-			Bureaucrat.cpp \
-			AForm.cpp \
-			PresidentialPardonForm.cpp \
-			ShrubberyCreationForm.cpp \
-			RobotomyRequestForm.cpp \
-			Intern.cpp \
+			ScalarConverter.cpp \
 			
 
 
