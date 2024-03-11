@@ -6,7 +6,7 @@
 /*   By: pineau <pineau@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 18:08:58 by pineau            #+#    #+#             */
-/*   Updated: 2024/03/11 15:29:15 by pineau           ###   ########.fr       */
+/*   Updated: 2024/03/11 16:42:40 by pineau           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,6 @@
 class ScalarConverter
 {
 	public:
-		ScalarConverter();
-		ScalarConverter(ScalarConverter const & src);
-		~ScalarConverter();
-		ScalarConverter &	operator=(ScalarConverter const & rhs);
 		
 		void convert(std::string const & str);
 		bool	check_int(std::string const & str);

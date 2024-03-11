@@ -6,26 +6,11 @@
 /*   By: pineau <pineau@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 18:08:55 by pineau            #+#    #+#             */
-/*   Updated: 2024/03/11 15:51:42 by pineau           ###   ########.fr       */
+/*   Updated: 2024/03/11 16:42:33 by pineau           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScalarConverter.hpp"
-
-ScalarConverter::ScalarConverter() {
-}
-
-ScalarConverter::ScalarConverter(ScalarConverter const & src) {
-	*this = src;
-}
-
-ScalarConverter::~ScalarConverter() {
-}
-
-ScalarConverter &	ScalarConverter::operator=(ScalarConverter const & rhs) {
-	(void)rhs;
-	return *this;
-}
 
 void	ScalarConverter::convert(std::string const & str) {
 	if (str.length() == 0)
