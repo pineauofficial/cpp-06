@@ -6,7 +6,7 @@
 #    By: pineau <pineau@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/05 14:17:43 by nasamadi          #+#    #+#              #
-#    Updated: 2024/03/11 16:51:09 by pineau           ###   ########.fr        #
+#    Updated: 2024/03/11 19:12:10 by pineau           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,9 @@ INCLUDES	= includes/
 
 SRC		=	main.cpp \
 			Base.cpp \
+			A.cpp \
+			B.cpp \
+			C.cpp \
 			
 
 

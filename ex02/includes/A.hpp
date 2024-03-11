@@ -6,7 +6,17 @@
 /*   By: pineau <pineau@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 16:54:46 by pineau            #+#    #+#             */
-/*   Updated: 2024/03/11 16:54:47 by pineau           ###   ########.fr       */
+/*   Updated: 2024/03/11 17:24:33 by pineau           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef A_HPP
+# define A_HPP
+
+# include "Base.hpp"
+
+class A : public Base
+{
+};
+
+#endif
