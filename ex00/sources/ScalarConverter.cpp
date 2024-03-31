@@ -6,7 +6,7 @@
 /*   By: pineau <pineau@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 18:08:55 by pineau            #+#    #+#             */
-/*   Updated: 2024/03/11 17:29:16 by pineau           ###   ########.fr       */
+/*   Updated: 2024/03/31 13:37:47 by pineau           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,15 @@
 ScalarConverter::ScalarConverter() {}
 
 ScalarConverter::~ScalarConverter() {}
+
+ScalarConverter::ScalarConverter(ScalarConverter const & src) {
+	*this = src;
+}
+
+ScalarConverter & ScalarConverter::operator=(ScalarConverter const & rhs) {
+	(void)rhs;
+	return *this;
+}
 
 void	ScalarConverter::convert(std::string const & str) {
 	if (str.length() == 0)
