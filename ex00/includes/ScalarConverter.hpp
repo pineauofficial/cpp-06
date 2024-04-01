@@ -6,7 +6,7 @@
 /*   By: pineau <pineau@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 18:08:58 by pineau            #+#    #+#             */
-/*   Updated: 2024/03/31 13:37:33 by pineau           ###   ########.fr       */
+/*   Updated: 2024/04/01 13:32:09 by pineau           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ class ScalarConverter
 		static void	is_double(std::string const & str);
 		static void	is_inf(std::string const & str);
 		static void	is_nan(std::string const & str);
+		static void	is_impossible();
 	private:
 		ScalarConverter();
 		~ScalarConverter();
